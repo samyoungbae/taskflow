@@ -14,7 +14,7 @@ interface Task {
 }
 
 export default function HomePage() {
-  const { data: session, status } = useSession();
+  const { data: status } = useSession();
 
   const [tasks, setTasks] = useState<Task[]>([]);
   const [newTask, setNewTask] = useState("");
