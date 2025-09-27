@@ -2,9 +2,9 @@
 
 A full-stack, multi-user task management application built with the T3 Stack principles in mind, using Next.js, NextAuth, Prisma, and Tailwind CSS.
 
-**[➡️ Live Demo](https://your-live-url.com)** *(We will add this link in the next step!)*
+**[➡️ Live Demo](https://taskflow-fgu6.vercel.app/)** 
 
-![TaskFlow Screenshot](./public/demo.gif) *(We will add this image soon)*
+![TaskFlow Screenshot](./public/demo.gif) 
 
 ---
 
