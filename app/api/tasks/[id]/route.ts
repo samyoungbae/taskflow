@@ -1,9 +1,9 @@
-// Arquivo: app/api/tasks/[id]/route.ts (VERSÃO CORRIGIDA FINAL)
+// Arquivo: app/api/tasks/[id]/route.ts (CORREÇÃO FINAL)
 
 import { NextResponse } from 'next/server';
 import { getServerSession } from 'next-auth';
-import { authOptions } from '@/lib/auth';
-import { db } from '@/lib/db'; // Usaremos uma instância única do Prisma Client
+import { authOptions } from '@/lib/auth'; // <-- AQUI ESTÁ A CORREÇÃO
+import { db } from '@/lib/db';
 
 export async function PATCH(
   req: Request,
